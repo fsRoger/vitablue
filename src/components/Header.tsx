@@ -78,7 +78,7 @@ const Header = () => {
 };
 
 // Componente para links navegáveis com efeito de hover
-const NavLink = ({ href, text }) => {
+const NavLink = ({ href, text } : { href: string, text: string }) => {
     return (
         <Link href={href} className="relative text-gray-600 hover:text-blue-500 focus:text-blue-500 focus:outline-none">
 
