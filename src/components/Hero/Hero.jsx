@@ -2,8 +2,8 @@ import Image from 'next/image';
 
 const Hero = () => {
   return (
-    <div className="grid grid-cols-1 place-items-center">
-      <div className="relative">
+    <div className="grid grid-cols-1 place-items-center pb-20">
+      <div className="relative mt-[-50px] md:mt-[-60px] xl:mt-[-110px]">
         {/* Imagem com Tailwind */}
         <div className="relative w-full h-96 md:h-auto md:w-auto">
           <Image
@@ -17,11 +17,11 @@ const Hero = () => {
         </div>
 
         {/* Conteúdo sobre a imagem */}
-        <div className="absolute top-1/2 left-1/4 transform -translate-y-1/2 text-white text-left md:left-8 md:text-center max-w-screen-md mx-auto">
-          <h1 className="text-4xl md:text-6xl font-bold mb-4">Show de <br></br>Prêmios</h1>
-          <h5 className="text-lg md:text-2xl font-semibold mb-2">Nome da empresa</h5>
-          <h5 className="text-sm md:text-base">Venda, jogue, participe e ganhe pontos <br/>
-            para trocar por inúmeros prêmios e descontos!</h5>
+        <div className="absolute top-[50%] left-[20px] sm:left-[40px] md:left-[80px] xl:left-[120px] transform -translate-y-1/2 text-white text-left   max-w-screen-md mx-auto">
+          <h1 className="text-2xl sm:text-3xl md:text-6xl  font-bold mb-4">Show de<br/>Prêmios</h1>
+          <h5 className="text-md md:text-2xl font-semibold mb-2">Nome da empresa</h5>
+          <p className="text-xs md:text-base">Venda, jogue, participe <br/>e ganhe pontos 
+            para trocar<br/> por inúmeros prêmios<br/> e descontos!</p>
         </div>
       </div>
     </div>

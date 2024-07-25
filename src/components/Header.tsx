@@ -12,9 +12,9 @@ const Header = () => {
     };
 
     return (
-        <div className="bg-gray-100 w-full py-6 px-6 flex justify-center items-center sticky top-0 z-10 rounded-b-full">
+        <div className="bg-gray-100 w-full py-2 flex justify-center items-center sticky top-0 z-10 rounded-b-full">
             <div className="logo px-10">
-                <img src="./images/website/logo.png" alt="Logo" className="h-12 ml-20" />
+                <img src="./images/website/logo.png" alt="Logo" className="h-12 md:ml-20" />
             </div>
             <div >
                 <div className=" items-center border border-gray-300 rounded-3xl p-1 hidden xl:flex">
@@ -59,15 +59,15 @@ const Header = () => {
                 )}
             </div>
             <div className='hidden xl:flex xl:flex-col'>
-                <div className="flex items-center space-x-4">
+                <div className="flex items-center space-x-4 ml-7">
                     <img src="./images/website/user.png" alt="User Icon" className="h-5" />
-                    <h5 className="ml-2">Lucas</h5>
+                    <h5 className="">Lucas</h5>
                 </div>
                 <div className='flex'>
                     <img src="./images/website/incentivecoins-medium.png" alt="IncentiveCoins Icon" className="h-5 ml-4" />
                     <h5 className="ml-2">2000/5000</h5>
                 </div>
-                <h5 className="text-sm text-gray-600 mt-2">Nível 1</h5>
+                <h5 className="text-sm text-gray-600 ml-5">Nível 1</h5>
 
             </div>
 
