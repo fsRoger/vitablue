@@ -2,7 +2,7 @@ import React from 'react';
 
 const SubHero = () => {
   return (
-    <div className="flex items-center justify-center sm:py-[100px]">
+    <div className=" bg-[#f5f5f5] flex items-center justify-center sm:py-[100px]">
        <img
           src="./images/website/incentivecoin.png"
           alt="moeda"

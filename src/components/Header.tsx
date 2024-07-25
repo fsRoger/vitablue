@@ -12,9 +12,9 @@ const Header = () => {
     };
 
     return (
-        <div className="bg-gray-100 w-full py-2 flex justify-center items-center sticky top-0 z-10 rounded-b-full">
+        <div className="bg-[#f5f5f5] shadow-md w-full py-2 flex justify-center items-center sticky top-0 z-10 rounded-b-full">
             <div className="logo px-10">
-                <img src="./images/website/logo.png" alt="Logo" className="h-12 md:ml-20" />
+                <img src="./images/website/logovitablue.jpeg" alt="Logo" className="h-12 md:ml-20" />
             </div>
             <div >
                 <div className=" items-center border border-gray-300 rounded-3xl p-1 hidden xl:flex">
