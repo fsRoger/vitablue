@@ -2,7 +2,7 @@ import React from 'react';
 
 const Treinamentos = () => {
   return (
-    <div className='bg-gray-100 flex flex-col items-center text-[#00254f]'>
+    <div className='bg-gray-100 flex flex-col items-center text-[#00254f] md:px-20'>
       <h1 className='text-xl sm:text-3xl md:text-5xl font-extrabold py-20'>Painel de treinamentos</h1>
 
       <div className='grid grid-cols-2 gap-8 px-10 md:px-20'>

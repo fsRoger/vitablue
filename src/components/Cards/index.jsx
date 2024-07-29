@@ -55,7 +55,7 @@ const Skills = () => {
     <>
       <span id="about"></span>
 
-      <div className="bg-[#f5f5f5] pt-20">
+      <div className="bg-[#f5f5f5] pt-20 md:px-20">
         <h1 className=" text-[#00254f] text-xl sm:text-3xl md:text-5xl  font-extrabold text-center">
           Prêmios em destaque
         </h1>

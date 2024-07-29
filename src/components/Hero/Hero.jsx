@@ -18,7 +18,7 @@ const Hero = () => {
 
         {/* Conteúdo sobre a imagem */}
         <div className="absolute top-[50%] left-[20px] sm:left-[40px] md:left-[80px] xl:left-[120px] transform -translate-y-1/2 text-white text-left   max-w-screen-md mx-auto">
-          <h1 className="text-2xl sm:text-3xl md:text-6xl  font-bold mb-4">Show de<br/>Prêmios</h1>
+          <h1 className="text-2xl sm:text-3xl md:text-6xl xl:text-8xl  font-bold mb-4">Show de<br/>Prêmios</h1>
           <h5 className="text-md md:text-2xl font-semibold mb-2">Nome da empresa</h5>
           <p className="text-xs md:text-base">Venda, jogue, participe <br/>e ganhe pontos 
             para trocar<br/> por inúmeros prêmios<br/> e descontos!</p>
