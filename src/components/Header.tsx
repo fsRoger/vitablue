@@ -49,8 +49,8 @@ const Header = () => {
                 {menuOpen && (
                     <div className="md:hidden  absolute h-screen w-[100%] left-0 top-16 pt-[10rem] bg-white border border-gray-200 rounded shadow-lg">
                         <div className='flex flex-col items-center justify-center gap-4'>
-                            <NavLink href="#" text="Botão 1" />
-                            <NavLink href="#" text="Botão 2" />
+                            <NavLink href="#" text="Pontos" />
+                            <NavLink href="#" text="Loja" />
                             <NavLink href="#" text="Criar conta" />
                             <NavLink href="/login" text="Login" />
                         </div>

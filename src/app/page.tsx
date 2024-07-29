@@ -6,7 +6,6 @@ import Niveis from "@/components/Niveis";
 import Treinamentos from "@/components/Treinamentos";
 import Footer from "@/components/Footer/Footer";
 import CardsBottom from '@/components/Cards-bottom';
-
 import Header from "@/components/Header";
 
 export default function Home() {
