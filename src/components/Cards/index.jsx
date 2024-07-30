@@ -4,7 +4,7 @@ const skillsData = [
   {
     icon: "/images/website/star.png",
     id: 1,
-    image: "/images/website/teclado.png",
+    image: "/images/website/tecla.jpeg",
     description:
       "A PARTIR DE R$ 9, 90* no 1º mês, depois R$ 139, 90/mês 12 meses de fidelidade",
     price: "R$ 200,00",
@@ -12,7 +12,7 @@ const skillsData = [
   {
     icon: "/images/website/star.png",
     id: 2,
-    image: "/images/website/panela.png",
+    image: "/images/website/panel.jpeg",
     description:
       "A PARTIR DE R$ 9, 90* no 1º mês, depois R$ 139, 90/mês 12 meses de fidelidade",
     price: "R$ 200,00",
@@ -20,7 +20,7 @@ const skillsData = [
   {
     icon: "/images/website/star.png",
     id: 3,
-    image: "/images/website/air-fryer-2.png",
+    image: "/images/website/air.jpeg",
     description:
       "A PARTIR DE R$ 9, 90* no 1º mês, depois R$ 139, 90/mês 12 meses de fidelidade",
     price: "R$ 200,00",
@@ -28,7 +28,7 @@ const skillsData = [
   {
     icon: "/images/website/star.png",
     id: 4,
-    image: "/images/website/guarda-roupa.png",
+    image: "/images/website/guarda.jpeg",
     description:
       "A PARTIR DE R$ 9, 90* no 1º mês, depois R$ 139, 90/mês 12 meses de fidelidade",
     price: "R$ 200,00",
@@ -36,7 +36,7 @@ const skillsData = [
   {
     icon: "/images/website/star.png",
     id: 5,
-    image: "/images/website/camisetas.png",
+    image: "/images/website/camisa.jpeg",
     description:
       "A PARTIR DE R$ 9,90* no 1º mês, depois R$ 139,90/mês 12 meses de fidelidade",
     price: "R$ 200,00",
@@ -44,7 +44,7 @@ const skillsData = [
   {
     icon: "/images/website/star.png",
     id: 6,
-    image: "/images/website/ventilador.png",
+    image: "/images/website/ventilado.jpeg",
     description: "A PARTIR DE R$ 9,90* no 1º mês, depois R$ 139,90/mês 12 meses de fidelidade",
     price: "R$ 200,00",
   },
