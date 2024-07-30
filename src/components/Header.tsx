@@ -12,7 +12,7 @@ const Header = () => {
     };
 
     return (
-        <div className="bg-white shadow-md w-full py-2 flex justify-center items-center sticky top-0 z-10 rounded-b-full">
+        <div className="bg-white shadow-md w-full sm:py-2 flex justify-center items-center sticky top-0 z-10 rounded-b-full">
             <div className="logo px-10">
                 <img src="./images/website/logovitablue.jpeg" alt="Logo" className="h-12 md:ml-20" />
             </div>
@@ -72,7 +72,7 @@ const Header = () => {
             </div>
 
 
-            <img src="./images/website/shopping-cart.png" alt="Logo" className="h-5 ml-20" />
+            <img src="./images/website/shopping-cart.png" alt="Logo" className="h-5 ml-10 md:ml-20" />
         </div>
     );
 };
