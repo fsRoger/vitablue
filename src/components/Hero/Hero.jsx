@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const Hero = () => {
   return (
-    <div className="bg-[#f5f5f5] grid grid-cols-1 place-items-center md:pb-20">
+    <div className="bg-[#f5f5f5] grid grid-cols-1 place-items-center md:pb-20 pt-4" >
       <div className="relative mt-[-50px] md:mt-[-60px] xl:mt-[-110px]">
         {/* Imagem com Tailwind */}
         <div className="relative w-full h-96 md:h-auto md:w-auto">
